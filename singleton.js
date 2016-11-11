@@ -36,12 +36,12 @@ var Score  = (function () {
 }());
 
 
-//unit tests
+//tests
 var s1 = Score.mkNewScore() ;
 s1.i = 5;
 var s2 = Score.mkNewScore() ;
 s2.i = 6;
 var s3 = Score.mkNewScore() ;
 s3.i = 7;
-console.log(s1.i);
-console.log(s3.i);
+console.log(s1.i);  //7
+console.log(s3.i);  //7
